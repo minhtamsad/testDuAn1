@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-	<title>Winku Social Network Toolkit</title>
-    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"> 
-    
-    <link rel="stylesheet" href="../css/main.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/color.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-
-</head>
-<body>
 <!--<div class="se-pre-con"></div>-->
 <div class="theme-layout">
 	
@@ -361,8 +343,8 @@
 								<span class="tag green">New</span>
 							</li>
 							<li>
-								<a href="notifications.html" title="">
-									<img src="images/resources/thumb-2.jpg" alt="">
+								<a href="../view/notifications.html" title="">
+									<img src="../images/resources/thumb-2.jpg" alt="">
 									<div class="mesg-meta">
 										<h6>Jhon doe</h6>
 										<span>Hi, how r u dear ...?</span>
@@ -418,7 +400,7 @@
 				</li>
 			</ul>
 			<div class="user-img">
-				<img src="../images/resources/admin.jpg" alt="">
+				<img src="images/resources/admin.jpg" alt="">
 				<span class="status f-online"></span>
 				<div class="user-setting">
 					<a href="#" title=""><span class="status f-online"></span>online</a>
@@ -554,7 +536,7 @@
 								<div class="central-meta">
 									<div class="new-postbox">
 										<figure>
-											<img src="../images/resources/admin2.jpg" alt="">
+											<img src="images/resources/admin2.jpg" alt="">
 										</figure>
 										<div class="newpst-input">
 											<form method="post">
@@ -694,7 +676,7 @@
 											<ul class="we-comet">
 												<li>
 													<div class="comet-avatar">
-														<img src="../images/resources/comet-1.jpg" alt="">
+														<img src="images/resources/comet-1.jpg" alt="">
 													</div>
 													<div class="we-comment">
 														<div class="coment-head">
@@ -1150,7 +1132,7 @@
 										<ul id="people-list" class="friendz-list">
 											<li>
 												<figure>
-													<img src="images/resources/friend-avatar.jpg" alt="">
+													<img src="images/resources/friend-avatar6.jpg" alt="">
 													<span class="status f-online"></span>
 												</figure>
 												<div class="friendz-meta">
