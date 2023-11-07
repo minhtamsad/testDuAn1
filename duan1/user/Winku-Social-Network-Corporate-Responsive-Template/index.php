@@ -6,10 +6,11 @@
     <title>Document</title>
     <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"> 
     
-    <link rel="stylesheet" href="./Winku-Social-Network-Corporate-Responsive-Template/css/main.min.css">
-    <link rel="stylesheet" href="./Winku-Social-Network-Corporate-Responsive-Template/css/style.css">
-    <link rel="stylesheet" href="./Winku-Social-Network-Corporate-Responsive-Template/css/color.css">
-    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/color.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
 </head>
 <body>
 <?php
@@ -17,12 +18,12 @@
 $action = "home";
 if (isset($_GET['act']))
   $action = $_GET['act'];
-if (!isset($_SESSION['user'])) {
-  $action = "login";
-}
+// if (!isset($_SESSION['user'])) {
+//   $action = "login";
+// }
 switch ($action) {
   case "home":
-    include './Winku-Social-Network-Corporate-Responsive-Template/view/home.php';
+    include './view/home.php';
     break;
   case "login":
     include './Winku-Social-Network-Corporate-Responsive-Template/view/landing.php';
