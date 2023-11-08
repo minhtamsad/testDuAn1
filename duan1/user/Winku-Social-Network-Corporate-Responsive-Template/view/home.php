@@ -1,21 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-	<title>Winku Social Network Toolkit</title>
-    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16"> 
-    
-    <link rel="stylesheet" href="../css/main.min.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/color.css">
-    <link rel="stylesheet" href="../css/responsive.css">
-
-</head>
-<body>
 <!--<div class="se-pre-con"></div>-->
 <div class="theme-layout">
 	
@@ -287,7 +270,7 @@
 						<ul class="drops-menu">
 							<li>
 								<a href="notifications.html" title="">
-									<img src="../images/resources/thumb-1.jpg" alt="">
+									<img src="" alt="">
 									<div class="mesg-meta">
 										<h6>sarah Loren</h6>
 										<span>Hi, how r u dear ...?</span>
@@ -320,7 +303,7 @@
 							</li>
 							<li>
 								<a href="notifications.html" title="">
-									<img src="../images/resources/thumb-4.jpg" alt="">
+									<img src="../images/resources/friend-avatar.jpg" alt="">
 									<div class="mesg-meta">
 										<h6>Tom cruse</h6>
 										<span>Hi, how r u dear ...?</span>
@@ -395,7 +378,7 @@
 							</li>
 							<li>
 								<a href="notifications.html" title="">
-									<img src="../images/resources/thumb-5.jpg" alt="">
+									<img src="../images/resources/thumb-1.jpg" alt="">
 									<div class="mesg-meta">
 										<h6>Amy</h6>
 										<span>Hi, how r u dear ...?</span>
@@ -476,7 +459,7 @@
 										<h4 class="widget-title">Your page</h4>	
 										<div class="your-page">
 											<figure>
-												<a href="#" title=""><img src="images/resources/friend-avatar9.jpg" alt=""></a>
+												<a href="#" title=""><img src="../images/resources/friend-avatar9.jpg" alt=""></a>
 											</figure>
 											<div class="page-meta">
 												<a href="#" title="" class="underline">My page</a>
@@ -554,7 +537,7 @@
 								<div class="central-meta">
 									<div class="new-postbox">
 										<figure>
-											<img src="../images/resources/admin2.jpg" alt="">
+											<img src="../images/resources/user-avatar.jpg" alt="">
 										</figure>
 										<div class="newpst-input">
 											<form method="post">
@@ -594,7 +577,7 @@
 									<div class="user-post">
 										<div class="friend-info">
 											<figure>
-												<img src="../images/resources/friend-avatar10.jpg" alt="">
+												<img src="../images/resources/user-avatar.jpg" alt="">
 											</figure>
 											<div class="friend-name">
 												<ins><a href="time-line.html" title="">Janice Griffith</a></ins>
@@ -986,7 +969,7 @@
 											<ul class="we-comet">
 												<li>
 													<div class="comet-avatar">
-														<img src="images/resources/comet-1.jpg" alt="">
+														<img src="../images/resources/user-avatar.jpg" alt="">
 													</div>
 													<div class="we-comment">
 														<div class="coment-head">
@@ -1339,7 +1322,7 @@
 					<div class="widget">
 						<div class="foot-logo">
 							<div class="logo">
-								<a href="index-2.html" title=""><img src="images/logo.png" alt=""></a>
+								<a href="index-2.html" title=""><img src="../images/logo.png" alt=""></a>
 							</div>	
 							<p>
 								The trio took this simple idea and built it into the world’s leading carpooling platform.
@@ -1411,7 +1394,7 @@
 			<div class="row">
 				<div class="col-md-12">
 					<span class="copyright"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></span>
-					<i><img src="images/credit-cards.png" alt=""></i>
+					<i><img src="../images/logo2.png" alt=""></i>
 				</div>
 			</div>
 		</div>
@@ -1480,12 +1463,3 @@
 				</div>
 			</form>
 		</div><!-- side panel -->		
-	
-	<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="../js/main.min.js"></script>
-	<script src="../js/script.js"></script>
-	<script src="../js/map-init.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script>
-
-</body>	
-
-</html>
