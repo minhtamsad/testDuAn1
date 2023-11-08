@@ -3465,11 +3465,13 @@ a.add-butn {
     float: right;
     font-size: 13px;
     line-height: initial;
-    padding: 5px 10px;
+    padding: 8px 10px;
     position: absolute;
     right: 0;
     text-transform: capitalize;
     top: 10px;
+    border-radius: 8px;
+    background-color: #936FFF;
 }
 
 .pepl-info > span {
@@ -3665,9 +3667,12 @@ a.add-butn {
 }
 
 a.add-butn.more-action {
-    background: lightslategray none repeat scroll 0 0;
+    color: #936FFF;
+    background: #fff;
     right: 74px;
+    border: 1px solid #936FFF;
 }
+
 
 #frends a.add-butn.more-action {
     right: 89px;
