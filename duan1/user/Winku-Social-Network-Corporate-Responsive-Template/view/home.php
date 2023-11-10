@@ -201,7 +201,7 @@
 						<div class="row" id="page-contents">
 							<div class="col-lg-3">
 								<?php
-								include './include/shortcuts.php';
+								include './include/sidebar.php';
 								?>
 							</div><!-- sidebar -->
 							<div class="col-lg-6">
@@ -348,7 +348,7 @@
 												<ul class="we-comet">
 													<li>
 														<div class="comet-avatar">
-															<img src="images/resources/comet-1.jpg" alt="">
+															<img src="../images/resources/comet-1.jpg" alt="">
 														</div>
 														<div class="we-comment">
 															<div class="coment-head">
@@ -965,12 +965,3 @@
 	</form>
 </div><!-- side panel -->
 
-<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="../js/main.min.js"></script>
-<script src="../js/script.js"></script>
-<script src="../js/map-init.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script>
-
-</body>
-
-</html>

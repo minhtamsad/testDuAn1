@@ -814,6 +814,7 @@ header.sticky {
     display: inline-block;
     width: 80%;
     position:relative;
+    
     margin-left:10%;
 }
 
@@ -826,6 +827,7 @@ header.sticky {
     overflow: hidden;
     position: relative;
     width: 100%;
+   
 }
 
 .user-avatar > figure > img {
@@ -4825,6 +4827,7 @@ canvas {
     transition: all 0.2s linear 0s;
     border: 1px solid #e1e8ed;
     text-align: left;
+    overflow:hidden;
 }
 
 .chat-box.show {
