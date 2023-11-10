@@ -812,7 +812,9 @@ header.sticky {
 
 .feature-photo > figure img {
     display: inline-block;
-    width: 100%;
+    width: 80%;
+    position:relative;
+    margin-left:10%;
 }
 
 .user-avatar {
@@ -829,7 +831,16 @@ header.sticky {
 .user-avatar > figure > img {
     width: 100%
 }
-
+button.add-butn{
+    color: #fff;
+    font-size: 13px;
+    line-height: initial;
+    padding: 8px 10px;
+    border:none;
+    top: 10px;
+    border-radius: 8px;
+    background-color: #936FFF;
+}
 .user-avatar > figure {
     margin-bottom: 0;
     position: relative;
@@ -1334,6 +1345,7 @@ header.sticky {
 
 .newpst-input {
     display: inline-block;
+    top: 10px;
     margin-left: 10px;
     vertical-align: top;
     width: 85.5%;
