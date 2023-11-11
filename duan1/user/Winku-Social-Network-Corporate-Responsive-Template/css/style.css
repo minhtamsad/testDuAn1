@@ -4821,7 +4821,7 @@ canvas {
     right: 100%;
     width: 300px;
     z-index: 9999999;
-    transform: translate(40px) scale(0);
+    transform: translate(400px) scale(0);
     opacity: 0;
     visibility: hidden;
     transition: all 0.2s linear 0s;
