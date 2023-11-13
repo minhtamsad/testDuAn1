@@ -40,15 +40,7 @@
                             //   $action = "login";
                             // }
                             switch ($action) {
-                              case "home":
-                                include '../view/home.php';
-                                break;
-                              case "login":
-                                include '../view/landing.php';
-                                break;
-                              case "myacount":
-                                include '../view/myacount.php';
-                                break;
+                              
                               case "logout":
                                 unset($_SESSION['user']);
                                 header("location: index.php");
