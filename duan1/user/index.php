@@ -41,7 +41,7 @@
                             // }
                             switch ($action) {
                               case "home":
-                                include '../user/view/home.php';
+                                include './view/home.php';
                                 break;
                               case "myacount":
                                 include './view/myacount.php';
