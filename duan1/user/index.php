@@ -22,7 +22,7 @@ session_start();
 <body>
   <div class="theme-layout">
     <?php
-    include './include/header.php';
+   
     // include '../Winku-Social-Network-Corporate-Responsive-Template/include/header.php';
     // include '../Winku-Social-Network-Corporate-Responsive-Template/include/topbar.php';
     ?>		
@@ -56,7 +56,7 @@ session_start();
                               }
                               ?>
                 <?php
-                              include './include/listfen.php';
+                              
                               ?>
               </div>	
             </div>
