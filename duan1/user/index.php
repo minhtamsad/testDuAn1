@@ -43,9 +43,6 @@
                               case "home":
                                 include '../user/view/home.php';
                                 break;
-                              case "login":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/landing.php';
-                                break;
                               case "myacount":
                                 include './view/myacount.php';
                                 break;
