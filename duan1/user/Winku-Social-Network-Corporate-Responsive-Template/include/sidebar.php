@@ -5,11 +5,11 @@
             <ul class="naves">
                 <li>
                     <i class="ti-clipboard"></i>
-                    <a href="../index.php?act=home" title="">Bảng tin</a>
+                    <a href="../../../user/Winku-Social-Network-Corporate-Responsive-Template/index.php?act=home" title="">Bảng tin</a>
                 </li>
                 <li>
                     <i class="ti-files"></i>
-                    <a href="../index.php?act=myacount" title="">Trang cá nhân</a>
+                    <a href="../../../user/Winku-Social-Network-Corporate-Responsive-Template/index.php?act=myacount" title="">Trang cá nhân</a>
                 </li>
                 <li>
                     <i class="ti-user"></i>

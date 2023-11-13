@@ -49,31 +49,10 @@
                               case "myacount":
                                 include '../Winku-Social-Network-Corporate-Responsive-Template/view/myacount.php';
                                 break;
-                              case "friends":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/friends.php';
+                              case "logout":
+                                unset($_SESSION['user']);
+                                header("location: index.php");
                                 break;
-                              case "fav":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/fav-page.php';
-                                break;
-                              case "mess":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/messages.php';
-                                break;
-                              case "notifications":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/notifications.php';
-                                break;
-                              case "people":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/people-nearby.php';
-                                break;
-                              case "insights":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/insights.php';
-                                break;
-                              case "inbox":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/inbox.php';
-                                break;
-                                case "logout":
-                                  unset($_SESSION['user']);
-                                  header("location: index.php");
-                                  break;
                               }
                               ?>
                 <?php
