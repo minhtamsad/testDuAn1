@@ -21,11 +21,6 @@ session_start();
 
 <body>
   <div class="theme-layout">
-    <?php
-   
-    // include '../Winku-Social-Network-Corporate-Responsive-Template/include/header.php';
-    // include '../Winku-Social-Network-Corporate-Responsive-Template/include/topbar.php';
-    ?>		
 	<section>
 		<div class="gap gray-bg">
 			<div class="container-fluid">
@@ -54,9 +49,6 @@ session_start();
                                 header("location: index.php");
                                 break;
                               }
-                              ?>
-                <?php
-                              
                               ?>
               </div>	
             </div>
