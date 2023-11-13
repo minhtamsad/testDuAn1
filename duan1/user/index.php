@@ -41,13 +41,13 @@
                             // }
                             switch ($action) {
                               case "home":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/home.php';
+                                include '../user/view/home.php';
                                 break;
                               case "login":
                                 include '../Winku-Social-Network-Corporate-Responsive-Template/view/landing.php';
                                 break;
                               case "myacount":
-                                include '../Winku-Social-Network-Corporate-Responsive-Template/view/myacount.php';
+                                include './view/myacount.php';
                                 break;
                               case "logout":
                                 unset($_SESSION['user']);
