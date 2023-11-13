@@ -33,10 +33,6 @@ session_start();
       }else{
         $tl = "";
       }
-      
-      
-    // include '../Winku-Social-Network-Corporate-Responsive-Template/include/header.php';
-    // include '../Winku-Social-Network-Corporate-Responsive-Template/include/topbar.php';
     ?>		
 	<section>
 		<div class="gap gray-bg">
@@ -79,14 +75,12 @@ session_start();
                               }
                               ?>
                 <?php
-                              
-                            
                                 $user = $_SESSION['user'] ?? "";
                                 if ($user){
                                   include './include/listfen.php';
                                 }  
                               ?>
-              </div>	
+              </div>	 
             </div>
           </div>
         </div>
