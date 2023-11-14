@@ -24,15 +24,28 @@
 				<div class="foot-lnk">
 					<a href="#forgot">Forgot Password?</a>
 				</div>
-				<?php
-				$singin = new singin();
-				$sin = $singin->sigin();
-	   
-      			?>
 			</div>
       </form>
 
-     
+      <?php
+      $Username = $_POST['Username'] ?? "";
+      $Password = $_POST['Password'] ?? "";
+        if (isset($_POST['btn'])){ 
+          $login = new login();
+          $add = $login->checkuser($Username, $Password);
+          $id = $login->getUserid($Username, $Password);
+          if($add == true){
+            if ($id == true){
+              foreach ($id as $ro){
+                $_SESSION['user'] = $Username;
+                header("Location: ../user/index.php?act=home");
+              }
+            }
+          }else{
+            echo "ádd";
+          }
+        }
+      ?>
       
 			<div class="sign-up-htm">
 				<div class="group">
