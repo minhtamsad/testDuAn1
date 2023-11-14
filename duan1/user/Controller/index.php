@@ -30,7 +30,7 @@ session_start();
         <?php
       $user = $_SESSION['user'] ?? "";
       if ($user){
-        include './include/header.php';
+        include './model/include/header.php';
       }else{
         $tl = "";
       }
@@ -44,7 +44,7 @@ session_start();
                                 <?php
                       $user = $_SESSION['user'] ?? "";
                       if ($user){
-                        include './include/sidebar.php';
+                        include './model/include/sidebar.php';
                       }  
                 ?>
                         <?php
@@ -78,7 +78,7 @@ session_start();
                                 <?php
                                 $user = $_SESSION['user'] ?? "";
                                 if ($user){
-                                  include './include/listfen.php';
+                                  include './model/include/listfen.php';
                                 }  
                               ?>
                             </div>
