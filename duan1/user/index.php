@@ -3,7 +3,6 @@ session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +16,6 @@ session_start();
     <link rel="stylesheet" href="./css/color.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-    
 
 <!-- ===== CSS ===== -->
     <link rel="stylesheet" href="./asset/css/login.css">
