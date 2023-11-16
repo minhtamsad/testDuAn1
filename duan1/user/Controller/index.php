@@ -69,6 +69,9 @@ session_start();
                               case "myacount":
                                 include './view/myacount.php';
                                 break;
+                              case "ib": 
+                                include './View/chat.php';
+                                break;  
                               case "logout":
                                 unset($_SESSION['user']);
                                 header("location: index.php");
@@ -94,6 +97,7 @@ session_start();
     <script src="./view/js/script.js"></script>
     <script src="./view/js/map-init.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8c55_YHLvDHGACkQscgbGLtLRdxBDCfI"></script>
+ 
     <!-- <script src="./asset/js/login.js"></script>  -->
 
 </body>

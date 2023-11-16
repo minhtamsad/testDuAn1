@@ -32,16 +32,14 @@
 			</div>
       </form>
 
-     
-      
-			<div class="sign-up-htm">
+			<div class="sign-up-htm" id = "from" method="post">
 				<div class="group">
 					<label for="user" class="label">Username</label>
-					<input id="user" type="text" class="input">
+					<input id="user" name ="user" type="text" class="input">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Password</label>
-					<input id="pass" type="password" class="input" data-type="password">
+					<input id="pass" type="password" name ="password" class="input" data-type="password">
 				</div>
 				<div class="group">
 					<label for="pass" class="label">Repeat Password</label>
@@ -62,3 +60,5 @@
 		</div>
 	</div>
 </div>
+
+

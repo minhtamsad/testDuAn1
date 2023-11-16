@@ -2,7 +2,7 @@
 								<div class="central-meta">
 									<div class="new-postbox">
 										<figure>
-											<img src="images/resources/admin2.jpg" alt="">
+											<img src="./images/resources/user-avatar2.jpg" alt="">
 										</figure>
 										<div class="newpst-input">
 											<form method="post">
@@ -42,7 +42,7 @@
 										<div class="user-post">
 											<div class="friend-info">
 												<figure>
-													<img src="../images/resources/friend-avatar10.jpg" alt="">
+													<img src="./images/resources/friend-avatar10.jpg" alt="">
 												</figure>
 												<div class="friend-name">
 													<ins><a href="time-line.html" title="">Janice Griffith</a></ins>
@@ -115,7 +115,7 @@
 													<div class="post-comt-box">
 														<form method="post">
 															<div class="j">
-																<img src="../images/resources/comet-1.jpg" alt="" style="border-radius: 50%;">
+																<img src="./images/resources/comet-1.jpg" alt="" style="border-radius: 50%;">
 																<input class="input" type="text" placeholder="Bình luận">
 																<input class="inputs" type="submit" placeholder="Bình luận">
 															</div>
